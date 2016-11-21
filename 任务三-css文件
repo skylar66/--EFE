@@ -1,0 +1,59 @@
+body{
+	font-family: "Micrsoft YaHei";
+	margin: 0 auto;
+	padding: 20px;
+}
+main{
+
+	padding: 20px;
+	background: #eee;
+	border:1px solid #999;
+	overflow:hidden; /*子元素最高高度，自适应撑开父元素*/
+	min-width: 600px;/*设置元素的最小宽度*/
+}
+.left {
+	padding:20px;
+	float: left;
+	width: 160px;
+	border:1px solid #999;
+	background: #fff;
+}
+.left img{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.left span{
+	/*position: absolute;
+	margin-top: 0px ;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;*/
+	width: 180px;
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;/*有问题*/
+}
+
+.right{
+	width: 120px;
+	float: right;
+	border:1px solid #999;
+	background: #fff;
+}
+.right-logo{
+	display: block;
+	float: right; 
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border:1px solid #999;
+}
+
+.middle{
+	margin: 0px 140px 0px 220px;
+	padding: 20px;
+	border:1px solid #999;
+	background: #fff;
+}
