@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务四：定位和居中问题</title>
+</head>
+<style type="text/css">
+	
+body{
+	color: #fff;
+	margin: 0 auto;
+}
+.gray{
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	margin: auto;
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+
+/*	方法二
+	top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -200px;*/
+}
+.left{
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: #fc0;
+	border-bottom-right-radius: 100px;
+
+}
+.right{
+	position:relative;
+	float: right;
+	margin-top: 150px;
+	width: 50px;
+	height: 50px;
+	background: #fc0;
+	border-radius: 100px 0 0 0;
+}
+	
+</style>
+<body>
+	<div class="gray">
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+</body>
+</html>
+
+<!-- Centering in CSS: A Complete Guide：完整讨论了不同情况下的居中方案，建议自己思考之后再看答案 
+Get HTML & CSS Tips In Your Inbox：有人写了一个作弊工具生成居中代码，但是看着代码你明白为什么吗-->
